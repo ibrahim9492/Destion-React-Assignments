@@ -1,0 +1,123 @@
+[
+    {
+      "orderId": "ORD-123",
+      "storeName": "Tech Gadgets",
+      "date": "2023-10-27T10:00:00Z",
+      "items": [
+        {
+          "itemId": "ITEM-001",
+          "name": "Laptop",
+          "quantity": 1,
+          "regularPrice": 1200,
+          "dealPrice": 1000,
+          "itemTotal": 1000,
+          "tax": { "rate": 0.08, "amount": 80 }
+        },
+        {
+          "itemId": "ITEM-002",
+          "name": "Mouse",
+          "quantity": 2,
+          "regularPrice": 25,
+          "itemTotal": 50,
+          "tax": { "rate": 0.08, "amount": 4 }
+        }
+      ]
+    },
+    {
+      "orderId": "ORD-456",
+      "storeName": "Book World",
+      "date": "2023-10-28T14:30:00Z",
+      "items": [
+        {
+          "itemId": "ITEM-003",
+          "name": "Novel",
+          "quantity": 3,
+          "regularPrice": 15,
+          "itemTotal": 45,
+          "tax": { "rate": 0.05, "amount": 2.25 }
+        }
+      ]
+    },
+    {
+      "orderId": "ORD-789",
+      "storeName": "Grocery Mart",
+      "date": "2023-11-02T08:15:00Z",
+      "items": [
+        {
+          "itemId": "ITEM-004",
+          "name": "Milk",
+          "quantity": 2,
+          "regularPrice": 2.5,
+          "itemTotal": 5,
+          "tax": { "rate": 0.02, "amount": 0.10 }
+        },
+        {
+          "itemId": "ITEM-005",
+          "name": "Bread",
+          "quantity": 1,
+          "regularPrice": 3,
+          "itemTotal": 3,
+          "tax": { "rate": 0.02, "amount": 0.06 }
+        },
+        {
+          "itemId": "ITEM-006",
+          "name": "Eggs",
+          "quantity": 1,
+          "regularPrice": 5,
+          "dealPrice": 4.5,
+          "itemTotal": 4.5,
+          "tax": { "rate": 0.02, "amount": 0.09 }
+        }
+      ]
+    },
+    {
+      "orderId": "ORD-101",
+      "storeName": "Fashion Hub",
+      "date": "2023-11-05T12:45:00Z",
+      "items": [
+        {
+          "itemId": "ITEM-007",
+          "name": "T-shirt",
+          "quantity": 2,
+          "regularPrice": 20,
+          "dealPrice": 18,
+          "itemTotal": 36,
+          "tax": { "rate": 0.1, "amount": 3.6 }
+        },
+        {
+          "itemId": "ITEM-008",
+          "name": "Jeans",
+          "quantity": 1,
+          "regularPrice": 50,
+          "itemTotal": 50,
+          "tax": { "rate": 0.1, "amount": 5 }
+        }
+      ]
+    },
+    {
+      "orderId": "ORD-202",
+      "storeName": "Electronics Plaza",
+      "date": "2023-11-07T17:30:00Z",
+      "items": [
+        {
+          "itemId": "ITEM-009",
+          "name": "Smartphone",
+          "quantity": 1,
+          "regularPrice": 800,
+          "dealPrice": 750,
+          "itemTotal": 750,
+          "tax": { "rate": 0.12, "amount": 90 }
+        },
+        {
+          "itemId": "ITEM-010",
+          "name": "Headphones",
+          "quantity": 1,
+          "regularPrice": 100,
+          "dealPrice": 90,
+          "itemTotal": 90,
+          "tax": { "rate": 0.12, "amount": 10.8 }
+        }
+      ]
+    }
+  ]
+  

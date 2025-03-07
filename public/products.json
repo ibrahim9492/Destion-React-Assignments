@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "name": "Laptop",
+      "store": "Tech Gadgets",
+      "price": 1000
+    },
+    {
+      "id": 2,
+      "name": "Smartphone",
+      "store": "Tech Gadgets",
+      "price": 700
+    },
+    {
+      "id": 3,
+      "name": "Wireless Headphones",
+      "store": "Tech Gadgets",
+      "price": 150
+    },
+    {
+      "id": 4,
+      "name": "Office Chair",
+      "store": "Furniture World",
+      "price": 250
+    },
+    {
+      "id": 5,
+      "name": "Desk Lamp",
+      "store": "Furniture World",
+      "price": 40
+    },
+    {
+      "id": 6,
+      "name": "Fiction Novel",
+      "store": "Book World",
+      "price": 20
+    },
+    {
+      "id": 7,
+      "name": "Cookbook",
+      "store": "Book World",
+      "price": 30
+    },
+    {
+      "id": 8,
+      "name": "Basketball",
+      "store": "Sports Arena",
+      "price": 50
+    },
+    {
+      "id": 9,
+      "name": "Running Shoes",
+      "store": "Sports Arena",
+      "price": 120
+    },
+    {
+      "id": 10,
+      "name": "Gaming Mouse",
+      "store": "Tech Gadgets",
+      "price": 60
+    }
+  ]
+  
