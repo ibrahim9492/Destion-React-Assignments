@@ -1,0 +1,194 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Invoice & Product Manager */
+.invoice-manager,
+.product-manager {
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items */
+  text-align: center;
+}
+
+/* Invoice & Product Lists */
+.invoice-list,
+.product-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items */
+}
+
+.invoice-list ul,
+.product-list ul {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Invoice & Product Items */
+.invoice-item,
+.product-item {
+  width: 80%;
+  text-align: center;
+  padding: 10px;
+  background: #fff;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.invoice-item:hover {
+  background: #e3f2fd;
+}
+
+/* Invoice & Product Details */
+.invoice-detail,
+.product-detail {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+/* Invoice Message */
+.invoice-message {
+  color: #666;
+  font-style: italic;
+}
+
+/* Invoice Item Details */
+.invoice-item-detail {
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Grand Total */
+.grand-total {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #2c3e50;
+  margin-top: 10px;
+}
+
+/* Product Form */
+.product-form {
+  width: 100%;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.product-form input {
+  width: 80%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.save-btn {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 80%;
+}
+
+.save-btn:hover {
+  background: #218838;
+}
+
+/* Controls (Store Filter & Search) */
+.controls {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.store-filter,
+.search-bar {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Buttons */
+.product-item button {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+.edit-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #0056b3;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .controls {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-form input {
+    width: 100%;
+  }
+
+  .save-btn {
+    width: 100%;
+  }
+}
